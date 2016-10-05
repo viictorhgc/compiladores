@@ -1,0 +1,15 @@
+inicio 
+classe Teste 
+	x = 5
+	if (a < 3)
+	
+	
+	fimif
+
+	for (b<3) 
+
+	escreva()
+	fimfor
+
+
+fim
