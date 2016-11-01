@@ -1,9 +1,9 @@
 grammar Hello;
 
-sentence : 'inicio' 'classe' ID operacoes 'fim' ;
-operacoes : D soma D | D menos D | D mult D | D div D;
-ID : [a-z]+ ;
-D : [0-9];
+sentence : 'inicio' 'classe' ID expr 'fim' ;
+expr: expr ('*'|'/') expr | expr ('+'|'-') expr | INT | ID | '(' expr ')' ;
+ID : [a-zA-Z]+ ;
+INT : [0-9]+;
 
 
 ESCREVA : 'escreva';
@@ -17,10 +17,7 @@ maior :'>';
 menor : '<';
 igual : '==';
 atribui :'=';
-soma : '+';
-mult : '*';
-menos : '-';
-div : '/';
+
 
 
 WS : [ \t\r\n]+ -> skip;
