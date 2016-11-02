@@ -1,15 +1,7 @@
-inicio 
-classe Teste 
-	x = 5
-	if (a < 3)
-	
-	
-	fimif
-
-	for (b<3) 
-
-	escreva()
-	fimfor
-
+inicio classe
+		Teste 
+			(3+3)
+			3*1/2
+			1+1*4
 
 fim
