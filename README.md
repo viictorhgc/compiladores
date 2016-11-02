@@ -13,9 +13,12 @@ Para executar a gramatica precisamos do antlr4. Segue link de um tutorial. https
 
 Após a instalação do tutorial precisamos compilar o programa:
 $ antlr4 Hello.g4
-  $ javac Hello*.java
-  $ grun Hello sentence -tree (para gerar os tokens)
-  $ grun Hello sentence -gui (para gerar a arvore de parsing)
+
+$ javac Hello*.java
+
+$ grun Hello sentence -tree (para gerar os tokens)
+
+$ grun Hello sentence -gui (para gerar a arvore de parsing)
   
   Por
     Victor Hugo Gonçalves.
