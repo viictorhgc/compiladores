@@ -29,14 +29,17 @@ class Main {
 		        			switch (token.getType())
 		        			{
 		        			case DecafScannerTokenTypes.ID:
-		        				type = " IDENTIFIER";
+		        				type = "IDENTIFIER";
 		        				break;
 						case DecafScannerTokenTypes.CHAR:
 							type = " CHARLITERAL";
 							break;		
 						case DecafScannerTokenTypes.OP:
 							type = "OP";
-							break;    
+							break; 
+						case DecafScannerTokenTypes.OP2:
+							type = "OP2";
+							break;       
 						case DecafScannerTokenTypes.INT:
 							type = "INT";
 							break; 
@@ -48,9 +51,35 @@ class Main {
 							break;      
 						case DecafScannerTokenTypes.FIMPROG:
 							type = "FIM";
-							break;          			
-    			
-}
+							break;
+						case DecafScannerTokenTypes.TK_escreva:
+							type = "ESCREVA";
+							break;          						case DecafScannerTokenTypes.TK_if:
+							type = "if";
+							break;	
+		    				case DecafScannerTokenTypes.FIMIF:
+							type = "FIMIF";
+							break;	
+						case DecafScannerTokenTypes.FOR:
+							type = "FOR";
+							break;	
+						case DecafScannerTokenTypes.FIMFOR:
+							type = "FIMFOR";
+							break;	
+						case DecafScannerTokenTypes.MAIOR:
+							type = "MAIOR";
+							break;
+						case DecafScannerTokenTypes.MENOR:
+							type = "MENOR";
+							break;
+						case DecafScannerTokenTypes.IGUAL:
+							type = "IGUAL";
+							break;
+						case DecafScannerTokenTypes.ATRIBUI:
+							type = "ATRIBUI";
+							break;
+}						
+						
 		        			System.out.println (type + " " + text);
 		        		}
 		        		done = true;
@@ -74,4 +103,3 @@ class Main {
         }
     }
 }
-
