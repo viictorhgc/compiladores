@@ -10,7 +10,7 @@
   
   e se compilado com sucesso
   
-  $java -jar dist/Compiler.jar -target scan op1
+  $ java -jar dist/Compiler.jar -target scan op1
   
   O programa então dará uma sequência de tokens e lexemas da gramática criada, caso queira conhecer mais soube a gramatica, está nos arquivos lexer.g, Parser.g e Main.java que se encontram na pasta src/decaf.
   
