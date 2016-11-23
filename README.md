@@ -5,6 +5,7 @@
  
  Executando: 
   Para executar devemos abrir o cmd e ir até a pasta skeleton, após chegar a pasta skeleton deve-se digitar o comando:
+  
   $ ant
   
   e se compilado com sucesso
