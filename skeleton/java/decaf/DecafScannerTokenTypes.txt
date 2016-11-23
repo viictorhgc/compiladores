@@ -1,0 +1,32 @@
+// $ANTLR 2.7.7 (2006-11-01): Lexer.g -> DecafScannerTokenTypes.txt$
+DecafScanner    // output token vocab name
+TK_class="class"=4
+TK_int="int"=5
+TK_escreva="escreva"=6
+TK_if="if"=7
+TK_maior="maior"=8
+LCURLY("{")=9
+RCURLY("}")=10
+FIMPROG("an identifier")=11
+INICIOPROG("an identifier")=12
+NOMECLASSE("an identifier")=13
+ABREP("an identifier")=14
+FECHAP("an identifier")=15
+ID("an identifier")=16
+INT("an identifier")=17
+OP("an identifier")=18
+OP2("an identifier")=19
+IF("an identifier")=20
+FIMIF("an identifier")=21
+FOR("an identifier")=22
+FIMFOR("an identifier")=23
+MAIOR("an identifier")=24
+MENOR("an identifier")=25
+IGUAL("an identifier")=26
+ATRIBUI("an identifier")=27
+WS_=28
+SL_COMMENT=29
+STRING=30
+CHAR=31
+CHARLITERAL=32
+ESC=33
